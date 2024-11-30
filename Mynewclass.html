@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link   rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<style> 
+    span {
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      margin: 6px;
+      background-color: #f9f9f9;
+    }
+
+
+    span {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    background-color: #f9f9f9;
+  }
+    </style>
+<body>
+
+<div class="container bg-primary">
+  <h1>My First Bootstrap Page</h1>
+  <p>This part is inside a .container-fluid class.</p>
+  <p>The .container-fluid class provides a full width container, spanning the entire width of the viewport.</p>
+</div>
+
+
+<div class="row">
+    <div class="col-md-4"> <img src="croissant.jpg"></div>
+    <div class="col-md-4"><img src="croissant.jpg"></div>
+    <div class="col-md-4"><img src="croissant.jpg"></div>
+  </div>
+
+
+  <p class="text-bg-primary">This text is important.</p>
+  <p class="text-bg-success">This text indicates success.</p>
+  <p class="text-bg-info">This text represents some information.</p>
+  <p class="text-bg-warning">This text represents a warning.</p>
+  <p class="text-bg-danger">This text represents danger.</p>
+  <p class="text-bg-secondary">Secondary background color.</p>
+  <p class="text-bg-dark">Dark grey background color.</p>
+  <p class="text-bg-light">Light grey background color.</p>
+
+
+  <img src="avatar.jpg" class="mx-auto d-block">
+
+  <div class="container mt-3">
+    <h2>Alerts</h2>
+    <p>The button with class="btn-close" and data-bs-dismiss="alert" is used to close the alert box.</p>
+    <p>The alert-dismissible class aligns the button to the right.</p>
+    <div class="alert alert-success alert-dismissible">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>Success!</strong> This alert box could indicate a successful or positive action.
+    </div>
+    <div class="alert alert-info alert-dismissible">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+    </div>
+    <div class="alert alert-warning alert-dismissible">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+    </div>
+    <div class="alert alert-danger alert-dismissible">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+    </div>
+    <div class="alert alert-primary alert-dismissible">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>Primary!</strong> Indicates an important action.
+    </div>
+    <div class="alert alert-secondary alert-dismissible">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>Secondary!</strong> Indicates a slightly less important action.
+    </div>
+    <div class="alert alert-dark alert-dismissible">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>Dark!</strong> Dark grey alert.
+    </div>
+    <div class="alert alert-light alert-dismissible">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>Light!</strong> Light grey alert.
+    </div>
+  </div>
+
+  
+  <div class="container mt-8">
+    <h2>Button Styles</h2>
+    <button type="button" class="btn">Basic</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-link">Link</button>      
+  </div>
+
+  
+  <div class="container mt-3">
+    <h2>Button Group</h2>
+    <p>The .btn-group class creates a button group:</p>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">Apple</button>
+      <button type="button" class="btn btn-primary">Samsung</button>
+      <button type="button" class="btn btn-primary">Sony</button>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Contextual Badges</h2>
+    <span class="badge bg-primary">Primary</span>
+    <span class="badge bg-secondary">Secondary</span>
+    <span class="badge bg-success">Success</span>
+    <span class="badge bg-danger">Danger</span>
+    <span class="badge bg-warning">Warning</span>
+    <span class="badge bg-info">Info</span>
+    <span class="badge bg-light">Light</span>
+    <span class="badge bg-dark">Dark</span>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Striped Progress Bars</h2>
+    <p>The .progress-bar-striped class adds stripes to the progress bars:</p> 
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped" style="width:30%"></div>
+    </div>
+    <br>
+    <div class="progress">
+      <div class="progress-bar bg-success progress-bar-striped" style="width:40%"></div>
+    </div>
+    <br>
+    <div class="progress">
+      <div class="progress-bar bg-info progress-bar-striped" style="width:50%"></div>
+    </div>
+    <br>
+    <div class="progress">
+      <div class="progress-bar bg-warning progress-bar-striped" style="width:60%"></div>
+    </div>
+    <br>
+    <div class="progress">
+      <div class="progress-bar bg-danger progress-bar-striped" style="width:70%"></div>
+    </div>
+  </div>
+
+  
+  <div class="container mt-3">
+    <h2>Progress Bar With Label</h2>
+    <div class="progress">
+      <div class="progress-bar" style="width:70%">70%</div>
+    </div>
+  </div>
+
+  
+  <div class="spinner-border text-muted"></div>
+  <div class="spinner-border text-primary"></div>
+  <div class="spinner-border text-success"></div>
+  <div class="spinner-border text-info"></div>
+  <div class="spinner-border text-warning"></div>
+
+  <span class="rounded"></span>
+<span class="rounded-top"></span>
+<span class="rounded-end"></span>
+<span class="rounded-bottom"></span>
+<span class="rounded-start"></span>
+<span class="rounded-circle"></span>
+<span class="rounded-pill" style="width:130px"></span>
+<span class="rounded-0"></span>
+<span class="rounded-1"></span>
+<span class="rounded-2"></span>
+<span class="rounded-3"></span>
+<span class="rounded-4"></span>
+<span class="rounded-5"></span>
+
+
+<div class="clearfix">
+    <span class="float-start">Float left</span>
+    <span class="float-end">Float right</span>
+  </div>
+
+  <div class="w-25 bg-warning">Width 25%</div>
+<div class="w-50 bg-warning">Width 50%</div>
+<div class="w-75 bg-warning">Width 75%</div>
+<div class="w-100 bg-warning">Width 100%</div>
+<div class="w-auto bg-warning">Auto Width</div>
+<div class="mw-100 bg-warning">Max Width 100%</div>
+
+
+<div class="container mt-3">
+    <h2>Borders</h2>
+    <p>Use the border classes to add or remove borders from an element:</p> 
+
+
+
+    
+  <span class="border"></span>
+  <span class="border border-0"></span>
+  <span class="border border-top-0"></span>
+  <span class="border border-end-0"></span>
+  <span class="border border-bottom-0"></span>
+  <span class="border border-start-0"></span>
+  <br>
+  
+  <span class="border-top"></span>
+  <span class="border-end"></span>
+  <span class="border-bottom"></span>
+  <span class="border-start"></span>
+</div>
+  
+    
+  
+<div class="container mt-3">
+    <h2>Border Width</h2>
+    <p>Use .border-1 to .border-5 to change the width of the border:</p> 
+  
+    <span class="border border-1"></span>
+    <span class="border border-2"></span>
+    <span class="border border-3"></span>
+    <span class="border border-4"></span>
+    <span class="border border-5"></span>
+  </div>
+  
+
+</body>
+</html>
+
